@@ -2,36 +2,105 @@
 <html>
   <head>
     <title>Foundation Example</title>
-    <link rel="stylesheet" href="css/foundation.css">
-    <link rel="stylesheet" href="css/app.css">
+    <link rel="stylesheet" href="foundation.css">
+    <link rel="stylesheet" href="app.css">
   </head>
-  <body>
+  <body style="padding: 25px">
     <div class="title-bar">
       <div class="title-bar-left">
-        <button class="menu-icon" type="button"></button>
-        <span class="title-bar-title">Knob Inc.</span>
-      </div>
-      <div class="title-bar-right">
-        <button class="menu-icon" type="button"></button>
+        <span class="title-bar-title">Rockin' Playlists</span>
       </div>
     </div>
 
     <div class="callout">
-      <h5>Hello</h5>
+      <h6>Answer a few questions, and we'll make you a bangin' playlist!</h6>
+      <h5>It's really as simple as that!</h5>
     </div>
-    <div class="callout secondary"> Goodbye </div>
-    <div class="callout warning"> These are examples of callouts </div>
 
-    <div class = "row">
-      <div class="small-4 columns">
-        <div class="callout">
-          This is a row
-        </div>
-      </div>
-      <div class="small-8 columns">
-        <div class="callout">
-          Foundation makes grid systems easy!
-        </div>
-      </div>
+    <div class="large-6 columns">
+      <h5>You might be asked some questions like these...</h5>
+      <form>
+	<!-- COLORS -->
+	<div class="row">
+	  <div class="large-12 columns">
+	    <label>Pick a color:</label>
+	    <input type="radio" name="color" value="Red" id="1"><label for="1" style="color: red">Red</label>
+	    <input type="radio" name="color" value="Orange" id="2"><label for="2" style="color: orange">Orange</label>
+	    <input type="radio" name="color" value="Yellow" id="3"><label for="3" style="color: yellow">Yellow</label>
+	    <input type="radio" name="color" value="Green" id="4"><label for="4" style="color: green">Green</label>
+	    <input type="radio" name="color" value="Blue" id="5"><label for="5" style="color: blue">Blue</label>
+	    <input type="radio" name="color" value="Purple" id="6"><label for="6" style="color: purple">Purple</label>
+	  </div>
+	</div>
+	
+	<!-- GIBBERISH -->
+	<div class="row">
+	  <div class="large-6 columns">
+	    <label>Pick a silly word/phrase:
+	      <select>
+		<option value="knob">Knob</option>
+		<option value="hunkydory">Hunky dory</option>
+		<option value="biscuit">Biscuit</option>
+		<option value="nincompoop">Nincompoop</option>
+	      </select>
+	    </label>
+	  </div>
+	</div>
+
+	<!-- TED CRUZ -->
+	<div class="row">
+	  <div class="large-6 columns">
+	    <label>What's your zodiac sign?
+	      <select>
+		<option value="aq">Aquarius</option>
+		<option value="pi">Pisces</option>
+		<option value="ar">Aries</option>
+		<option value="ta">Taurus</option>
+		<option value="ge">Gemini</option>
+		<option value="ca">Cancer</option>
+		<option value="le">Leo</option>
+		<option value="vi">Virgo</option>
+		<option value="li">Libra</option>
+		<option value="sc">Scorpio</option>
+		<option value="sa">Sagittarius</option>
+		<option value="ca">Capricorn</option>
+	      </select>
+	    </label>
+	  </div>
+	</div>
+      </form>
+    </div>
+
+    <div class="large-6 columns">
+      <h5>And you might get a playlist like this...</h5>
+      <table>
+	<thead>
+	  <th colspan="2">Song Title</th>
+	  <th>Artist</th>
+	</thead>
+	<tbody>
+	  <tr>
+	    <td>Hey Ya</td>
+	    <td><a href="https://www.youtube.com/watch?v=PWgvGjAhvIw">YT</a> / <a href="https://play.spotify.com/track/2PpruBYCo4H7WOBJ7Q2EwM">SP</a></td>
+	    <td>Outkast</td>
+	  </tr>
+	  <tr>
+	    <td>Barnacle on a Surfboard (Barnacle Boogie)</td>
+	    <td><a href="https://www.youtube.com/watch?v=_tF5sfOzdEE">YT</a> / <a href="https://play.spotify.com/track/7JT8aM0oSCYOeGEg1GviFX">SP</a></td>
+	    <td>The Snails</td>
+	  </tr>
+	  <tr>
+	    <td>Ela Navega</td>
+	    <td><a href="https://www.youtube.com/watch?v=qt1eWvpkq3Y">YT</a> / <a href="https://play.spotify.com/track/3Bw5lQcpGzuNXksvkE63ap">SP</a></td>
+	    <td>Allah Las</td>
+	  </tr>
+	  <tr>
+	    <td>Sir Nose D'Voidoffunk</td>
+	    <td><a href="https://www.youtube.com/watch?v=4gTLxgssOXI">YT</a> / <a href="https://play.spotify.com/track/5USKZ2QdalpX4V7sLvQUJz">SP</a></td>
+	    <td>Parliament</td>
+	  </tr>
+	</tbody>
+      </table>
+    </div>
   </body>
 </html>
