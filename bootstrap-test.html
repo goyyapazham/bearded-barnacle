@@ -3,25 +3,46 @@
 <html>
 
   <head>
-    <title>Title</title>
+    <title>Boots's Blog</title>
     <link rel="stylesheet" href="bootstrap/bootstrap.min.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
     <script src="bootstrap/bootstrap.min.js"></script>
   </head>
 
   <body>
-    <div class="container">
-      <div class="dropdown">
-	<button class="btn btn-primary dropdown-toggle" type="button" data-toggle="dropdown">Dropdown Example
-	  <span class="caret"></span>
-	</button>
-	<ul class="dropdown-menu">
-	  <li><a href="#">HTML</a></li>
-	  <li><a href="#">CSS</a></li>
-	  <li><a href="#">JavaScript</a></li>
+    <nav class="navbar navbar-default">
+      <div class="container-fluid">
+	<div class="navbar-header">
+	  <a class="navbar-brand" href="#">Boots's Blog</a>
+	</div>
+	<ul class="nav navbar-nav">
+	  <li class="active"><a href="#">Home</a></li>
+	  <li><a href="#">My Best Friend Dora</a></li>
+	  <li class="dropdown">
+	    <a class="dropdown-toggle" data-toggle="dropdown" href="#">My Favorite Episodes
+	      <span class="caret"></span>
+	    </a>
+	    <ul class="dropdown-menu">
+	      <li><a href="http://dora.wikia.com/wiki/Boots'_Cuddly_Dinosaur">Boots' Cuddly Dinosaur</a></li>
+	      <li><a href="http://dora.wikia.com/wiki/Baseball_Boots">Baseball Boots</a></li>
+	      <li><a href="http://dora.wikia.com/wiki/Boots'_Special_Day">Boots' Special Day</a></li>
+	      <li><a href="https://en.wikipedia.org/wiki/List_of_Dora_the_Explorer_episodes">More episodes</a></li>
+	    </ul>
+	  </li>
+	  <li><a href="http://dora.wikia.com/wiki/Boots">My Wikia Page</a></li>
 	</ul>
       </div>
+    </nav>
+
+    <div class="container">
+      <div class="well well-sm"><h4>Friends (& Enemies...)</h4></div>
+      <img class="img-responsive" style="max-width: 20%; display: inline" src="http://vignette2.wikia.nocookie.net/doratheexplorer/images/1/1a/171728_10150098560436122_629911121_6337621_6914960_o.jpg/revision/latest?cb=20151201020621">
+      <img class="img-responsive" style="max-width: 15%; display: inline" src="http://vignette1.wikia.nocookie.net/doratheexplorer/images/1/10/3.png/revision/latest?cb=20160704175809">
+      <img class="img-responsive" style="max-width: 15%; display: inline" src="http://vignette1.wikia.nocookie.net/doratheexplorer/images/5/56/Go-diego-go-0.png/revision/latest?cb=20131112142718">
+      <img class="img-responsive" style="max-width: 30%; display: inline; float: right" src="http://vignette3.wikia.nocookie.net/doratheexplorer/images/6/63/Swiper.png/revision/latest?cb=20131219004140">
     </div>
+
+    
   </body>
 
 </html>
